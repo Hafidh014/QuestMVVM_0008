@@ -23,4 +23,17 @@ fun FormSiswa(
     modifier: Modifier = Modifier
 ) {
 
+    // Variabel untuk menyimpan data
+    var txtNama by rememberSaveable {
+        mutableStateOf("")
+    }
+
+    var txtAlamat by rememberSaveable {
+        mutableStateOf("")
+    }
+
+    var txtGender by rememberSaveable {
+        mutableStateOf("")
+    }
+
 }

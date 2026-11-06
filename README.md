@@ -1,0 +1,1 @@
+Maaf mas saya tidak menampilkan gambar dikarenakan di laptop saya emulatornya tidak mau jalan tidak tau di karenakan leg atau dari laptopnya, soalnya di codenya sudah tidak ada yang error, tetapi di laptop saya muncul tulisan android studio not respponding terus

@@ -87,6 +87,26 @@ fun FormSiswa(
                 color = Color.Blue
             )
 
+            // Pilihan jenis kelamin
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                pilihanJK.forEach { item ->
+
+                    Row(
+                        modifier = Modifier.selectable(
+                            selected = txtGender == item,
+                            onClick = {
+                                txtGender = item
+                            }
+                        ),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+
+                    }
+                }
+            }
+
         }
     }
 }
